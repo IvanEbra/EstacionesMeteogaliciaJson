@@ -1,0 +1,16 @@
+﻿<Window x:Class="PracticaJson4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaJson4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="labelSeleccionarEstacion" Content="Seleccione la estacion:" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBoxEstaciones" HorizontalAlignment="Left" Margin="152,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectionChanged="comboBoxEstaciones_SelectionChanged"/>
+        <DataGrid x:Name="dataGridEstacion" HorizontalAlignment="Left" Height="311" Margin="10,82,0,0" VerticalAlignment="Top" Width="772"/>
+        <Label x:Name="labelSeleccionarProvincia" Content="Seleccione la provincia" HorizontalAlignment="Left" Margin="336,26,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBoxProvincia" HorizontalAlignment="Left" Margin="495,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectionChanged="comboBoxProvincia_SelectionChanged"/>
+    </Grid>
+</Window>
